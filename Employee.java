@@ -1,4 +1,4 @@
-final class Employee extends Person{
+sealed class Employee extends Person permits Professor{
     
     private String titel;
     private int fakultaet;
